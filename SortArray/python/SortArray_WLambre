@@ -1,0 +1,24 @@
+#Array of numbers to be sorted
+
+array=[74,12,14,9,7,2,1,6,3,1,4]
+
+#sorted array
+array2=[]
+#for loop to sort the numbers
+for i in array:
+    if array2 == []:
+        array2.append(i)
+    else:
+        count=0
+        leng=len(array2)
+        while count < leng:
+            if i <= array2[count]:
+                array2.insert(count,i)
+                count = leng+1
+            count+=1
+        if leng == len(array2):
+            array2.append(i)
+
+#array2=[1, 1, 2, 3, 6, 7, 9, 12, 14, 74]
+
+#alternatively, use array2=array.sort()
