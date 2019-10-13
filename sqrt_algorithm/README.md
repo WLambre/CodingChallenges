@@ -1,4 +1,4 @@
-# sqrt() algorithm
-Implemented through a binary search.
-Programming language : C++
+# sqrt() algorithm.
+## Algorithms implemented :-
+#### Binary search.
 ### More algorithms and optimizations are welcome.
