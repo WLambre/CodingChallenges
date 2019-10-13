@@ -1,4 +1,4 @@
 # sqrt() algorithm.
 ## Algorithms implemented :-
-#### Binary search.
+*Binary search | C++.
 ### More algorithms and optimizations are welcome.
